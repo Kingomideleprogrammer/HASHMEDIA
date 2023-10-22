@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    
 }
 /* .container{
     width: 100%;
@@ -98,7 +100,7 @@ body{
     height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    /* max-width: 1300px; */
     margin: 0 auto;
     padding: 0 50px;
 }
@@ -188,7 +190,7 @@ body{
     }
 
     #navbar_logo{
-        padding-left: 25px;
+        padding-left: 15px;
 
     }
     .navbar_toggle .bar{
@@ -384,7 +386,7 @@ marquee h1{
 }
 @media screen and (max-width: 768px){
     .hero{
-        grid-template-columns: 1fr;
+        display: inline;
     }
 }
 /* button{
