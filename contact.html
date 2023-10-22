@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    <div class="container">
-        <div class="menu">
+    <div class="container upper">
+      <!-- <div class="menu">
             <div class="menu1 logo">
                 <img src="LOGO HASH.png" alt="HashMedia">
             </div>
@@ -20,9 +20,65 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
-            <!--Contact form-->
             
+        </div>-->
+
+            <!--Navbar section-->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="#home" id="navbar_logo">
+                <img src="LOGO HASH.png" alt="HashMedia">
+            </a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="#home" class="navbar_links" id="home-page">Home</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#about" class="navbar_links" id="about-page">About</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#services" class="navbar_links" id="services-page">Services</a>
+                </li>
+                <li class="navbar_btn">
+                    <a href="contact.html" class="button" id="signup" target="_blank">Contact</a>
+                </li>
+            </ul>
         </div>
+    </nav>
+
+        <!--Contact form-->
+        <section>
+            <div class="container lower">
+                <form action="MAILTO:oluwasegunabdulafeezclement@gmail.com" method="POST" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="firstName" name="firstName"> First Name </label>
+                        <input type="text" id="firstName" name="firstName">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="lastName" name="lastName"> Last Name </label>
+                        <input type="text" id="lastName" name="lastName">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="email" name="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="message" name="message">Message</label>
+                       <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
     </div>
+    <script src="contact.js"></script>
 </body>
 </html>
