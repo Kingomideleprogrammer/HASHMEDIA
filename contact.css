@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgb(62, 65, 62);
+
+}
+.menu1{
+    width: 100%;
+}
+.logo{
+    padding-left: 20px;
+}
+.logo img{
+    width: 50px;
+   
+}
+.right-menu ul{
+    display: flex;
+}
+.home{
+    padding: 0 20px 0 0;
+}
+.mid{
+    padding: 0 20px;
+}
+.right-menu ul li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+.right-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}

@@ -45,6 +45,10 @@
     color: #fff;
     
 }
+button a{
+    text-decoration: none;
+    color: #000;
+}
 .right-menu ul li a:hover{
     color: #b99a9ad3;
 }
