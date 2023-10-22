@@ -74,10 +74,13 @@ button a{
         width: 100%;
     }
 } */
-
+body{
+    background: #000000;
+    background: linear-gradient(to right, #161616, #000000);
+}
 /* The navbar section css */
 .navbar{
-    background: #131313;
+    background: #fff;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -112,7 +115,7 @@ button a{
     height: 80px;
 }
 .navbar_links{
-    color: #fff;
+    color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -191,7 +194,7 @@ button a{
         height: 3px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
-        background: #fff;
+        background: #000;
     }
     .navbar_item{
         width: 100%;
@@ -242,6 +245,15 @@ section{
 
     height: 100vh;
     
+}
+marquee h1{
+    background: -webkit-linear-gradient(to right, #ffee00, #ee0979);
+    background: linear-gradient(to right, #ffee00, #ee0979);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
 }
 .hero{
     display: flex;
